@@ -13,6 +13,12 @@ a{
 h1{
     font-size: 100px;
 }
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
 img{
     width: 100%;
 }
@@ -22,6 +28,7 @@ p{
 /* layout */
 .b-container{
     width: 1920px;
+    margin: 50px;
 }
 .m-container{
     width: 1200px;
@@ -45,14 +52,22 @@ main .button-first-part{
     width: 200px;
     font-size: 15px;
     border: 0;
-    margin: 20px 0;
+    margin: 20px;
 }
 .fa-arrow-down{
-    margin-top: 70px;
-    margin-bottom: 10px;
+    margin-top: 40px;
     font-size: 50px;
+    padding: 20px;
 }
-
+main .card .card-body button{
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    width: 100%;
+    font-size: 15px;
+    border: 0;
+    margin: 20px 0;
+}
 
 
 
@@ -80,11 +95,17 @@ header img{
 .justify-end{
     justify-content: flex-end;
 }
+.column{
+    flex-direction: column;
+}
 .col-33{
     width: calc(100% / 3);
 }
 .col-66{
     width: calc(2* 100% / 3);
+}
+.col-100{
+    width: calc(100%);
 }
 .title{
     padding: 50px 0;
@@ -94,8 +115,41 @@ main .img-jumbo img{
     height: 442px;
     width: 786px;
 }
-
-
+main .plan-choice{
+    margin-top: 100px;
+}
+main .plan-choice h2{
+    padding: 10px 0;
+}
+main .plan-choice .choice-action{
+    padding: 20px 0;
+    gap: 50px;
+}
+main .card .card-head{
+    border: 1px solid #D0D0D3;
+    padding: 7px;
+    margin: 0 20px;
+}
+main .card .card-body{
+    border: 1px solid #D0D0D3;
+    padding: 35px;
+    margin: 0 20px;
+}
+main .card .card-body h3{
+    padding: 20px 0;
+}
+main .card .card-body .month{
+    padding-bottom: 35px;
+}
+main .card .card-body li{
+    padding: 10px 0;
+}
+main .card .card-body hr{
+    border: 1px solid;
+    width: 25%;
+    color: #D0D0D3;
+    margin: 25px 0;
+}
 
 /* Background color */
 .bg-lightblue{
@@ -107,4 +161,10 @@ main .img-jumbo img{
 /* text color */
 .white{
     color: white;
+}
+.gray{
+    color: gray;
+}
+.lightblue{
+    color: #0061FF;
 }
