@@ -8,6 +8,16 @@ ul, ol{
 }
 a{
     text-decoration: none;
+    color: none;
+}
+h1{
+    font-size: 100px;
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 20px;
 }
 /* layout */
 .b-container{
@@ -23,11 +33,24 @@ header{
     height: 80px;
     padding: 0 20px;
 }
+/* buttons */
 .nav-bar button{
     line-height: 30px;
     width: 60px;
     font-size: 15px;
     border: 0;
+}
+main .button-first-part{
+    line-height: 40px;
+    width: 200px;
+    font-size: 15px;
+    border: 0;
+    margin: 20px 0;
+}
+.fa-arrow-down{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 50px;
 }
 
 
@@ -35,6 +58,9 @@ header{
 
 
 /* style */
+header img{
+    width: 130px;
+}
 .flex{
     display: flex;
 }
@@ -48,9 +74,35 @@ header{
 .justify-spacebetween{
     justify-content: space-between;
 }
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.col-33{
+    width: calc(100% / 3);
+}
+.col-66{
+    width: calc(2* 100% / 3);
+}
+.title{
+    padding: 50px 0;
+}
+main .img-jumbo img{
+    position: fixed;
+    height: 442px;
+    width: 786px;
+}
+
+
+
 /* Background color */
 .bg-lightblue{
     background: #0061FF;
+}
+.bg-cyan{
+    background: #B4D0E7;
 }
 /* text color */
 .white{
