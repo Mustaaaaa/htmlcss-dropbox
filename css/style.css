@@ -8,7 +8,7 @@ ul, ol{
 }
 a{
     text-decoration: none;
-    color: none;
+    color: black;
 }
 h1{
     font-size: 100px;
@@ -134,6 +134,7 @@ main .card .card-body{
     border: 1px solid #D0D0D3;
     padding: 35px;
     margin: 0 20px;
+    height: 100%;
 }
 main .card .card-body h3{
     padding: 20px 0;
