@@ -7,8 +7,7 @@ ul, ol{
     list-style: none;
 }
 a{
-    text-decoration: none;
-    color: black;
+    color: #0061FF;
 }
 h1{
     font-size: 100px;
@@ -28,7 +27,6 @@ p{
 /* layout */
 .b-container{
     width: 1920px;
-    margin: 50px;
 }
 .m-container{
     width: 1200px;
@@ -42,6 +40,10 @@ p{
     width: 60px;
     font-size: 15px;
     border: 0;
+}
+header a{
+    text-decoration: none;
+    color: black;
 }
 main .button-first-part{
     line-height: 40px;
@@ -106,6 +108,9 @@ header img{
 }
 .col-33{
     width: calc(4 *100% / 12);
+}
+.col-50{
+    width: calc(4 *100% / 8);
 }
 .col-66{
     width: calc(2* 100% / 3);
@@ -182,13 +187,18 @@ main .partner-part .s-container .col-33{
 main .partner-part .s-container .col-33 p{
     padding: 25px 0;
 }
+main .operation-part{
+    margin-bottom: 50px;
+}
 main .operation-part .s-container h2{
     padding: 0 25px;
 }
 main .operation-part .s-container .card{
     padding: 25px;
 }
-
+main .team-use-db-part li{
+    padding: 50px 0;
+}
 /* Background color */
 .bg-lightblue{
     background: #0061FF;
@@ -209,3 +219,5 @@ main .operation-part .s-container .card{
 .bg-white{
     background: white;
 }
+
+
