@@ -11,16 +11,16 @@
 
 <body>
     <header class="big-container nav-bar flex row justify-spacebetween">
-        <div class="flex row align-items-center">
+        <div class="flex row gap align-items-center">
             <img src="./img/logo-small.png" alt="">
-            <ul class="flex row">
+            <ul class="flex row gap">
                 <li><a href="">Perchè Dropbox</a></li>
                 <li><a href="">Funzioni</a></li>
                 <li><a href="">Piani e Prezzi</a></li>
             </ul>
         </div>
-        <div class="flex row align-items-center ">
-            <ul class="flex row">
+        <div class="flex row gap align-items-center ">
+            <ul class="flex row gap">
                 <li><a href="">Supporto</a></li>
                 <li><a href="">Contattal'ufficio vendite</a></li>
             </ul>
@@ -52,10 +52,10 @@
                     </div>
                 </div>
             </div>
-            <div class="plan-choice flex justify-center">
+            <div class="plan-choice flex column align-items-center">
                 <div class="s-container">
                     <div>
-                        <h2>Trova il piano buisness che fa per te</h2>
+                        <h2 class="title">Trova il piano buisness che fa per te</h2>
                     </div>
                     <div class="choice-action flex row">
                         <div>
@@ -65,7 +65,9 @@
                             <input type="radio" name="plan"> Fatturazione annuale</input>
                         </div>
                     </div>
-                    <div class="flex">
+                </div>
+                <div class="s-container">
+                    <div class="flex row wrap">
                         <div class=" col-33 card">
                             <div class="card-head flex justify-center"><i class="fa-solid fa-user"></i> Singolo</div>
                             <div class="card-body">
@@ -95,7 +97,7 @@
                             </div>
                         </div>
                         <div class=" col-33 card">
-                            <div class="card-head flex justify-center"><i class="fa-solid fa-user"></i> Team</div>
+                            <div class="card-head flex justify-center"><i class="fa-solid fa-users"></i> Team</div>
                             <div class="card-body">
                                 <h3>Advanced</h3>
                                 <h4>&euro; 18.00</h4>
@@ -136,15 +138,18 @@
                             </div>
                         </div>
                         <div class=" col-33 card">
-                            <div class="card-head flex justify-center"><i class="fa-solid fa-user"></i> Azienda</div>
+                            <div class="card-head flex justify-center"><i class="fa-solid fa-building-user"></i> Azienda
+                            </div>
                             <div class="card-body">
                                 <h3>Enterprise</h3>
                                 <h4>Contattaci</h4>
                                 <p class="month gray">-</p>
                                 <ul>
                                     <li><i class="fa-solid fa-user"></i> 10 o più utenti</li>
-                                    <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
-                                    <li><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                                    <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda
+                                    </li>
+                                    <li><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare
+                                        gli amministratori in una gestione su larga scala</li>
                                 </ul>
                                 <button class="bg-lightblue white">Contattaci</button>
                                 <p>oppure <u class="lightblue">aquista ora</u></p>
@@ -165,6 +170,102 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="col-100 card">
+                            <div class="card-head flex justify-center"><i class="fa-solid fa-building-user"></i> Team
+                            </div>
+                            <div class="card-body flex row">
+                                <div class="col-66">
+                                    <div>
+                                        <h3>Enterprise</h3>
+                                        <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>Soluzioni personalizzate e supporto su misura per aiutare i
+                                                professionisti nella gestione su qualsiasi scala</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-33">
+                                    <button class="bg-lightblue white">Contatta l'ufficio vendite</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partner-part flex justify-center">
+                <div class="s-container flex reverse-row">
+                    <div class="col-33">
+                        <h3>Entra in contatto con un partner Dropbox</h3>
+                        <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari
+                            per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione gestione
+                            e supporto</p>
+                        <button class="button-first-part bg-white black">Trova un partner</button>
+                    </div>
+                    <div class="col-66">
+                        <img src="./img/partner.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="operation-part flex align-items-center column wrap">
+                <div class="s-container">
+                    <h2>Esegui più operazioni con Dropbox Buisness</h2>
+                </div>
+                <div class="s-container flex row wrap">
+                    <div class=" col-33 card">
+                        <div class="card-body">
+                            <img src="./img/business-feature-switching-tools.png" alt="">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le lattività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+                    </div>
+                    <div class=" col-33 card">
+                        <div class="card-body">
+                            <img src="./img/business-feature-send-files-it.png" alt="">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le lattività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+                    </div>
+                    <div class=" col-33 card">
+                        <div class="card-body">
+                            <img src="./img/business-feature-coordinate-it.png" alt="">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le lattività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+                    </div>
+                    <div class=" col-33 card">
+                        <div class="card-body">
+                            <img src="./img/business-feature-integrations-it.png" alt="">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le lattività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+                    </div>
+                    <div class=" col-33 card">
+                        <div class="card-body">
+                            <img src="./img/business-feature-multi-device.png" alt="">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le lattività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
+                    </div>
+                    <div class=" col-33 card">
+                        <div class="card-body">
+                            <img src="./img/business-feature-security.png" alt="">
+                            <h3>Passa di meno da uno strumento all'altro</h3>
+                            <p>Porta a termine le lattività quotidiane con un solo strumento. Crea, modifica e condividi
+                                contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e
+                                Dropbox Paper direttamente da Dropbox.</p>
                         </div>
                     </div>
                 </div>

@@ -36,10 +36,6 @@ p{
 .s-container{
     width: 1000px;
 }
-header{
-    height: 80px;
-    padding: 0 20px;
-}
 /* buttons */
 .nav-bar button{
     line-height: 30px;
@@ -52,39 +48,52 @@ main .button-first-part{
     width: 200px;
     font-size: 15px;
     border: 0;
-    margin: 20px;
+    margin: 20px 0;
 }
 .fa-arrow-down{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 50px;
     padding: 20px;
 }
-main .card .card-body button{
-    display: flex;
-    justify-content: center;
+main .plan-choice .card .card-body button{
     line-height: 40px;
     width: 100%;
     font-size: 15px;
     border: 0;
     margin: 20px 0;
 }
-
-
-
-
+main .plan-choice .col-100 .card-body button{
+    width: 250px;
+}
+main .partner-part .col-33 button{
+    border: 1px solid black;
+    width: 150px
+}
 /* style */
+header{
+    height: 80px;
+    padding: 0 20px;
+}
 header img{
     width: 130px;
+}
+.gap{
+    gap: 30px;
 }
 .flex{
     display: flex;
 }
 .row{
     flex-direction: row;
-    gap: 20px;
+}
+.reverse-row{
+    flex-direction: row-reverse;
 }
 .align-items-center{
     align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 .justify-spacebetween{
     justify-content: space-between;
@@ -92,14 +101,11 @@ header img{
 .justify-center{
     justify-content: center;
 }
-.justify-end{
-    justify-content: flex-end;
-}
 .column{
     flex-direction: column;
 }
 .col-33{
-    width: calc(100% / 3);
+    width: calc(4 *100% / 12);
 }
 .col-66{
     width: calc(2* 100% / 3);
@@ -122,34 +128,65 @@ main .plan-choice h2{
     padding: 10px 0;
 }
 main .plan-choice .choice-action{
-    padding: 20px 0;
+    padding: 20px 25px;
     gap: 50px;
+
 }
-main .card .card-head{
+main .plan-choice .title{
+    padding: 0 25px;
+}
+main .plan-choice .card .card-head{
     border: 1px solid #D0D0D3;
     padding: 7px;
-    margin: 0 20px;
 }
-main .card .card-body{
+main .plan-choice .card{
+    padding: 25px;
+}
+main .plan-choice .col-100{
+    margin: auto;
+}
+main .plan-choice .card .card-body{
     border: 1px solid #D0D0D3;
-    padding: 35px;
-    margin: 0 20px;
+    padding: 25px;
     height: 100%;
 }
 main .card .card-body h3{
     padding: 20px 0;
 }
-main .card .card-body .month{
+main .plan-choice .card .card-body .month{
     padding-bottom: 35px;
 }
-main .card .card-body li{
+main .plan-choice .card .card-body li{
     padding: 10px 0;
 }
-main .card .card-body hr{
+main .plan-choice .card .card-body hr{
     border: 1px solid;
-    width: 25%;
+    width: 50px;
     color: #D0D0D3;
     margin: 25px 0;
+}
+main .plan-choice .col-100 .card-body ul{
+    padding-top: 25px;
+}
+main .partner-part{
+    margin: 75px 0;
+    padding: 25px;
+}
+main .partner-part .s-container{
+    padding: 25px;
+}
+main .partner-part .s-container .col-33{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+main .partner-part .s-container .col-33 p{
+    padding: 25px 0;
+}
+main .operation-part .s-container h2{
+    padding: 0 25px;
+}
+main .operation-part .s-container .card{
+    padding: 25px;
 }
 
 /* Background color */
@@ -168,4 +205,7 @@ main .card .card-body hr{
 }
 .lightblue{
     color: #0061FF;
+}
+.bg-white{
+    background: white;
 }
