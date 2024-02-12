@@ -60,6 +60,13 @@ main .plan-choice .card .card-body button{
 main .plan-choice .col-100 .card-body button{
     width: 250px;
 }
+main .try-dropbox-part button{
+    width: 250px;
+    line-height: 40px;
+    font-size: 15px;
+    border: 0;
+    /* margin: 0 px; */
+}
 main .partner-part .col-33 button{
     border: 1px solid black;
     width: 150px
@@ -91,8 +98,8 @@ main .partner-part .col-33 button{
 .justify-center{
     justify-content: center;
 }
-.justify-start{
-    justify-content: flex-start;
+.align-items-start{
+    align-items: start;
 }
 .justify-end{
     justify-content: flex-end;
@@ -221,7 +228,10 @@ main .designit-part .col-33 .col-50 img{
 }
 main .designit-part .col-33 .col-50 .image-uf{
     width: 160px;
-    height:25px;
+    height:15px;
+}
+main .designit-part .col-33 .image-designit-small{
+    border: 25px solid #D1E9CD;
 }
 main .designit-part .middle-designit-part{
     background-color: #F5F5F5;
@@ -230,21 +240,46 @@ main .designit-part .middle-designit-part{
 main .designit-part .middle-designit-part hr{
     border: 1px solid #D0D0D3;
     width: 110px;
-    margin: 50px 0;
+    margin-top: 50px;
+}
+main .designit-part .middle-designit-part p{
+    margin-top: 50px;
 }
 main .designit-part .middle-designit-part img{
     width: 250px;
+}
+main .try-dropbox-part{
+    padding: 100px;
 }
 
 
 
 /* Background color */
 .bg-lightblue{
-    background: #0061FF;
+    background: #0093CE;
 }
 .bg-cyan{
     background: #B4D0E7;
 }
+.bg-green{
+    background: #A2D39B;
+}
+.bg-bordeux{
+    background: #61082B;
+}
+.bg-red{
+    background: #FF1C1C;
+}
+.bg-darkred{
+    background: #D5001F;
+}
+.bg-blue{
+    background: #0D2481;
+}
+.bg-yellow{
+    background: #FFD830;
+}
+
 /* text color */
 .white{
     color: white;
@@ -257,4 +292,7 @@ main .designit-part .middle-designit-part img{
 }
 .bg-white{
     background: white;
+}
+.bordeux{
+    color: #61082B;
 }
