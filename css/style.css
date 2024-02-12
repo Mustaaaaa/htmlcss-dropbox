@@ -260,8 +260,21 @@ main .question-part .s-container h2, h4 {
 main .question-part .s-container hr {
     border: 1px solid #D0D0D3;
 }
-
-
+/* footer style */
+footer{
+    padding: 75px 0;
+}
+footer h3{
+    padding: 25px 0;
+}
+footer li{
+    padding: 10px 0;
+}
+footer hr{
+    margin-top: 110px;
+    margin-bottom: 40px;
+    width: 150px;
+}
 
 /* Background color */
 .bg-lightblue{
@@ -287,6 +300,9 @@ main .question-part .s-container hr {
 }
 .bg-yellow{
     background: #FFD830;
+}
+.bg-black{
+    background: black;
 }
 
 /* text color */
