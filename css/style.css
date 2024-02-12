@@ -218,7 +218,7 @@ main .operation-part .s-container .card{
     padding: 25px;
 }
 main .team-use-db-part li{
-    padding: 50px 0;
+    padding: 50px 25px;
 }
 main .designit-part .col-33 .col-50{
     aspect-ratio: 1/1;
@@ -248,8 +248,17 @@ main .designit-part .middle-designit-part p{
 main .designit-part .middle-designit-part img{
     width: 250px;
 }
-main .try-dropbox-part{
-    padding: 100px;
+main .try-dropbox-part .s-container{
+    padding: 100px 25px;
+}
+main .question-part .s-container{
+    padding: 100px 25px;
+}
+main .question-part .s-container h2, h4 {
+    padding: 25px 0;
+}
+main .question-part .s-container hr {
+    border: 1px solid #D0D0D3;
 }
 
 
