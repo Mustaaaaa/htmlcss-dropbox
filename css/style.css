@@ -26,7 +26,7 @@ p{
 }
 /* layout */
 .b-container{
-    width: 1920px;
+    width:  1920px;;
 }
 .m-container{
     width: 1200px;
@@ -41,10 +41,7 @@ p{
     font-size: 15px;
     border: 0;
 }
-header a{
-    text-decoration: none;
-    color: black;
-}
+
 main .button-first-part{
     line-height: 40px;
     width: 200px;
@@ -52,11 +49,7 @@ main .button-first-part{
     border: 0;
     margin: 20px 0;
 }
-.fa-arrow-down{
-    margin-top: 30px;
-    font-size: 50px;
-    padding: 20px;
-}
+
 main .plan-choice .card .card-body button{
     line-height: 40px;
     width: 100%;
@@ -71,14 +64,7 @@ main .partner-part .col-33 button{
     border: 1px solid black;
     width: 150px
 }
-/* style */
-header{
-    height: 80px;
-    padding: 0 20px;
-}
-header img{
-    width: 130px;
-}
+/* general style */
 .gap{
     gap: 30px;
 }
@@ -86,9 +72,11 @@ header img{
     display: flex;
 }
 .row{
+    display: flex;
     flex-direction: row;
 }
 .reverse-row{
+    display: flex;
     flex-direction: row-reverse;
 }
 .align-items-center{
@@ -103,28 +91,54 @@ header img{
 .justify-center{
     justify-content: center;
 }
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-end{
+    justify-content: flex-end;
+}
 .column{
     flex-direction: column;
 }
+/* column */
 .col-33{
     width: calc(4 *100% / 12);
 }
 .col-50{
-    width: calc(4 *100% / 8);
+    width: calc(6 *100% / 12);
 }
 .col-66{
-    width: calc(2* 100% / 3);
+    width: calc(8* 100% / 12);
 }
 .col-100{
     width: calc(100%);
 }
+/* header style */
+header a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    height: 80px;
+    padding: 0 20px;
+}
+
+header img{
+    width: 130px;
+}
 .title{
     padding: 50px 0;
 }
+/* main style */
 main .img-jumbo img{
     position: absolute;
     height: 442px;
     width: 786px;
+}
+.fa-arrow-down{
+    margin-top: 30px;
+    font-size: 50px;
+    padding: 20px;
 }
 main .plan-choice{
     margin-top: 100px;
@@ -135,7 +149,6 @@ main .plan-choice h2{
 main .plan-choice .choice-action{
     padding: 20px 25px;
     gap: 50px;
-
 }
 main .plan-choice .title{
     padding: 0 25px;
@@ -163,6 +176,8 @@ main .plan-choice .card .card-body .month{
 }
 main .plan-choice .card .card-body li{
     padding: 10px 0;
+    display: flex;
+    gap: 10px;
 }
 main .plan-choice .card .card-body hr{
     border: 1px solid;
@@ -175,7 +190,6 @@ main .plan-choice .col-100 .card-body ul{
 }
 main .partner-part{
     margin: 75px 0;
-    padding: 25px;
 }
 main .partner-part .s-container{
     padding: 25px;
@@ -199,6 +213,8 @@ main .operation-part .s-container .card{
 main .team-use-db-part li{
     padding: 50px 0;
 }
+main .designit-part .col-33 .col-50{
+}
 /* Background color */
 .bg-lightblue{
     background: #0061FF;
@@ -219,5 +235,3 @@ main .team-use-db-part li{
 .bg-white{
     background: white;
 }
-
-
